@@ -1,6 +1,8 @@
 package br.com.livroandroid.helloactionbar_share;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.ShareActionProvider;
+import androidx.core.view.MenuItemCompat;
 
 import android.app.ActionBar;
 import android.content.Intent;
@@ -8,7 +10,6 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.SearchView;
-import android.widget.ShareActionProvider;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
@@ -34,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
 
         // ShareActionProvider
         MenuItem shareItem = menu.findItem(R.id.action_share);
-        ShareActionProvider share = (ShareActionProvider) shareItem.getActionProvider();
+        ShareActionProvider share = (ShareActionProvider) MenuItemCompat.getActionProvider(shareItem);
         share.setShareIntent(getDefaultIntent());
 
         return true;
