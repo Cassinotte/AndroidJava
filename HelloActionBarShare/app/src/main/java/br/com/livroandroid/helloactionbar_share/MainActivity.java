@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
     private Intent getDefaultIntent() {
         Intent intent = new Intent(Intent.ACTION_SEND);
         intent.setType("text/*");
-        intent.putExtra(Intent.EXTRA_TEXT, "Texto para compartilhar");
+        intent.putExtra(Intent.EXTRA_TEXT, "Dennis viadao");
         return intent;
     }
 
