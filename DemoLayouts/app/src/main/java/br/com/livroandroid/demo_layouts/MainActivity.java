@@ -38,10 +38,10 @@ public class MainActivity extends ListActivity {
                     startActivity(new Intent(this,ExemploLinearLayoutAPIActivity.class));
                     break;
                 case 2:
-                    //startActivity(new Intent(this,ExemploTableLayoutAPIActivity.class));
+                    startActivity(new Intent(this,ExemploTableLayoutAPIActivity.class));
                     break;
                 case 3:
-                    //startActivity(new Intent(this,ExemploScrollViewActivity.class));
+                    startActivity(new Intent(this,ExemploScrollViewActivity.class));
                     break;
 
                 default:
