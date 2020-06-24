@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ExemploScrollViewActivity"></activity>
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -17,8 +17,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ExemploLinearLayoutAPIActivity" />
-        <activity android:name=".ExemploTableLayoutAPIActivity" />
+        <activity android:name=".ExemploLinearLayoutAPIActivity" android:label="@string/linearlayout" android:parentActivityName=".MainActivity"/>
+        <activity android:name=".ExemploTableLayoutAPIActivity" android:label="@string/tablelayout" android:parentActivityName=".MainActivity"/>
+        <activity android:name=".ExemploScrollViewActivity" android:label="@string/scrollview" android:parentActivityName=".MainActivity"/>
     </application>
 
 </manifest>

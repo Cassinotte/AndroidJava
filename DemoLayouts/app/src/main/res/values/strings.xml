@@ -16,4 +16,7 @@
     <string name="usuario">Usuario</string>
     <string name="login">Login</string>
     <string name="action_settings">Settings</string>
+    <string name="scrollview">Scroll View</string>
+    <string name="tablelayout">Table Layout</string>
+    <string name="linearlayout">Linear Layout</string>
 </resources>
