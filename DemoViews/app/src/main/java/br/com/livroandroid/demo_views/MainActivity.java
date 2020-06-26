@@ -64,10 +64,10 @@ public class MainActivity extends ListActivity {
                     startActivity(new Intent(this, ExemploToggleButtonActivity.class));
                     break;
                 case 4:
-                    //startActivity(new Intent(this, ExemploCheckRadioFormActivity.class));
+                    startActivity(new Intent(this, ExemploCheckRadioFormActivity.class));
                     break;
                 case 5:
-                    //startActivity(new Intent(this, ExemploSpinnerActivity.class));
+                    startActivity(new Intent(this, ExemploSpinnerActivity.class));
                     break;
                 case 6:
                     //startActivity(new Intent(this, ExemploProgressDialogActivity.class));
