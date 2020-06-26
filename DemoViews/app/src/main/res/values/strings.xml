@@ -6,4 +6,7 @@
     <string name="msg_azul_e_branco">Texto azul e branco</string>
     <string name="msg_vermelho_e_branco">Texto vermelho e branco</string>
     <string name="texto1">Texto campo 1 azul</string>
+    <string name="usuario">Usuario</string>
+    <string name="senha">Senha</string>
+    <string name="login">Login</string>
 </resources>

@@ -55,13 +55,13 @@ public class MainActivity extends ListActivity {
                     startActivity(new Intent(this, ExemploTextoCoresActivity.class));
                     break;
                 case 1:
-                    //startActivity(new Intent(this, ExemploAutoCompleteTextViewActivity.class));
+                    startActivity(new Intent(this, ExemploAutoCompleteTextViewActivity.class));
                     break;
                 case 2:
-                    //startActivity(new Intent(this, ExemploImageButtonActivity.class));
+                    startActivity(new Intent(this, ExemploImageButtonActivity.class));
                     break;
                 case 3:
-                    //startActivity(new Intent(this, ExemploToggleButtonActivity.class));
+                    startActivity(new Intent(this, ExemploToggleButtonActivity.class));
                     break;
                 case 4:
                     //startActivity(new Intent(this, ExemploCheckRadioFormActivity.class));
