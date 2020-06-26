@@ -70,14 +70,14 @@ public class MainActivity extends ListActivity {
                     startActivity(new Intent(this, ExemploSpinnerActivity.class));
                     break;
                 case 6:
-                    //startActivity(new Intent(this, ExemploProgressDialogActivity.class));
+                    startActivity(new Intent(this, ExemploProgressDialogActivity.class));
                     break;
                 case 7:
-                    //startActivity(new Intent(this, ExemploProgressBarActivity.class));
+                    startActivity(new Intent(this, ExemploProgressBarActivity.class));
                     break;
                 case 8:
                     Builder builder = new Builder(this);
-                    //builder.setIcon(R.drawable.ic_launcher);
+                    builder.setIcon(R.drawable.ic_launcher);
                     builder.setTitle("Título");
                     builder.setMessage("Mensagem");
                     builder.setPositiveButton("Sim", new DialogInterface.OnClickListener() {
@@ -96,10 +96,10 @@ public class MainActivity extends ListActivity {
                     dialog.show();
                     break;
                 case 9:
-                    //startActivity(new Intent(this, ExemploListViewActivity.class));
+                    startActivity(new Intent(this, ExemploListViewActivity.class));
                     break;
                 case 10:
-                    //startActivity(new Intent(this, ExemploListViewPlanetasActivity.class));
+                    startActivity(new Intent(this, ExemploListViewPlanetasActivity.class));
                     break;
                 case 11:
                     //startActivity(new Intent(this, ExemploGridViewActivity.class));
