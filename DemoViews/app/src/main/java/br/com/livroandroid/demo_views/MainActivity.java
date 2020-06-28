@@ -102,7 +102,7 @@ public class MainActivity extends ListActivity {
                     startActivity(new Intent(this, ExemploListViewPlanetasActivity.class));
                     break;
                 case 11:
-                    //startActivity(new Intent(this, ExemploGridViewActivity.class));
+                    startActivity(new Intent(this, ExemploGridViewActivity.class));
                     break;
                 case 12:
                     //startActivity(new Intent(this, ExemploGalleryActivity.class));

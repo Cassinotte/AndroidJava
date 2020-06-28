@@ -15,7 +15,6 @@ public class ExemploListViewActivity extends AppCompatActivity implements Adapte
     private static final String TAG = "livro";
     private ListView listView;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
