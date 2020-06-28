@@ -105,10 +105,10 @@ public class MainActivity extends ListActivity {
                     startActivity(new Intent(this, ExemploGridViewActivity.class));
                     break;
                 case 12:
-                    //startActivity(new Intent(this, ExemploGalleryActivity.class));
+                    startActivity(new Intent(this, ExemploGalleryActivity.class));
                     break;
                 case 13:
-                    //startActivity(new Intent(this, ExemploViewPagerActivity.class));
+                    startActivity(new Intent(this, ExemploViewPagerActivity.class));
                     break;
                 case 14:
                     //startActivity(new Intent(this, ExemploViewPagerTitleStripActivity.class));
