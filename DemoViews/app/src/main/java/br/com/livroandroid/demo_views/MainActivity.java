@@ -117,10 +117,10 @@ public class MainActivity extends ListActivity {
                     startActivity(new Intent(this, ExemploViewPagerTabStripActivity.class));
                     break;
                 case 16:
-                    //startActivity(new Intent(this, ExemploImageSwitcherActivity.class));
+                    startActivity(new Intent(this, ExemploImageSwitcherActivity.class));
                     break;
                 case 17:
-                    //startActivity(new Intent(this, ExemploWebViewActivity.class));
+                    startActivity(new Intent(this, ExemploWebViewActivity.class));
                     break;
                 case 18:
                     //startActivity(new Intent(this, ExemploMinhaViewActivity.class));

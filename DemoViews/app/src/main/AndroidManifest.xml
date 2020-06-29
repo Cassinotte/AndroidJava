@@ -12,6 +12,10 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".ExemploWebViewActivity"
+            android:label="@string/webView"
+            android:parentActivityName=".MainActivity"></activity>
+        <activity
             android:name=".ExemploTextoCoresActivity"
             android:label="@string/texto_e_cores"
             android:parentActivityName=".MainActivity" />
@@ -51,7 +55,6 @@
             android:name=".ExemploListViewPlanetasActivity"
             android:label="@string/listview"
             android:parentActivityName=".MainActivity" />
-
         <activity
             android:name=".ExemploGridViewActivity"
             android:label="@string/gridview"
@@ -72,23 +75,20 @@
             android:name=".ExemploViewPagerTabStripActivity"
             android:label="@string/viewPager_tab_strip"
             android:parentActivityName=".MainActivity" />
-        <!--<activity
+        <activity
             android:name=".ExemploImageSwitcherActivity"
             android:label="@string/imageSwitcher"
             android:parentActivityName=".MainActivity" />
-        <activity
-            android:name=".ExemploWebViewActivity"
-            android:label="@string/webView"
-            android:parentActivityName=".MainActivity" />
-
-        <activity
-            android:name=".canvas.ExemploMinhaViewActivity"
-            android:label="Minha View"
-            android:parentActivityName=".MainActivity" />
-        <activity
-            android:name=".canvas.TouchScreenViewActivity"
-            android:label="Touch"
-            android:parentActivityName=".MainActivity" /> -->
+        <!--
+   <activity
+       android:name=".canvas.ExemploMinhaViewActivity"
+       android:label="Minha View"
+       android:parentActivityName=".MainActivity" />
+   <activity
+       android:name=".canvas.TouchScreenViewActivity"
+       android:label="Touch"
+       android:parentActivityName=".MainActivity" />
+        -->
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
