@@ -12,6 +12,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
 
+import br.com.livroandroid.demo_views.canvas.ExemploMinhaViewActivity;
 import br.com.livroandroid.demo_views.canvas.TouchScreenView;
 import br.com.livroandroid.demo_views.canvas.TouchScreenViewActivity;
 
@@ -124,7 +125,7 @@ public class MainActivity extends ListActivity {
                     startActivity(new Intent(this, ExemploWebViewActivity.class));
                     break;
                 case 18:
-                    //startActivity(new Intent(this, ExemploMinhaViewActivity.class));
+                    startActivity(new Intent(this, ExemploMinhaViewActivity.class));
                     break;
                 case 19:
                     startActivity(new Intent(this, TouchScreenViewActivity.class));

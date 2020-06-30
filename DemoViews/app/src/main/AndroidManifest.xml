@@ -12,9 +12,13 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".canvas.ExemploMinhaViewActivity"
+            android:label="Minha View"
+            android:parentActivityName=".MainActivity" />
+        <activity
             android:name=".canvas.TouchScreenViewActivity"
             android:label="Touch"
-            android:parentActivityName=".MainActivity"></activity>
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".ExemploWebViewActivity"
             android:label="@string/webView"
