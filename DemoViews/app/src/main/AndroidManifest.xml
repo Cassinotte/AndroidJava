@@ -12,9 +12,13 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".canvas.TouchScreenViewActivity"
+            android:label="Touch"
+            android:parentActivityName=".MainActivity"></activity>
+        <activity
             android:name=".ExemploWebViewActivity"
             android:label="@string/webView"
-            android:parentActivityName=".MainActivity"></activity>
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".ExemploTextoCoresActivity"
             android:label="@string/texto_e_cores"
@@ -79,16 +83,6 @@
             android:name=".ExemploImageSwitcherActivity"
             android:label="@string/imageSwitcher"
             android:parentActivityName=".MainActivity" />
-        <!--
-   <activity
-       android:name=".canvas.ExemploMinhaViewActivity"
-       android:label="Minha View"
-       android:parentActivityName=".MainActivity" />
-   <activity
-       android:name=".canvas.TouchScreenViewActivity"
-       android:label="Touch"
-       android:parentActivityName=".MainActivity" />
-        -->
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

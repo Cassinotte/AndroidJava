@@ -1,7 +1,5 @@
 package br.com.livroandroid.demo_views;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.app.AlertDialog;
 import android.app.AlertDialog.Builder;
 
@@ -13,6 +11,9 @@ import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
+
+import br.com.livroandroid.demo_views.canvas.TouchScreenView;
+import br.com.livroandroid.demo_views.canvas.TouchScreenViewActivity;
 
 public class MainActivity extends ListActivity {
 
@@ -126,7 +127,7 @@ public class MainActivity extends ListActivity {
                     //startActivity(new Intent(this, ExemploMinhaViewActivity.class));
                     break;
                 case 19:
-                    //startActivity(new Intent(this, TouchScreenViewActivity.class));
+                    startActivity(new Intent(this, TouchScreenViewActivity.class));
                     break;
                 default:
                     finish();
