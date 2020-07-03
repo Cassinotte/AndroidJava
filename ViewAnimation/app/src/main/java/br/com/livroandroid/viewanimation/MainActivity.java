@@ -57,19 +57,19 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                 startActivity(new Intent(this, ExemploAnimationListenerApagarTela.class));
                 break;
             case 6:
-                //startActivity(new Intent(this, ExemploViewFlipperLogin.class));
+                startActivity(new Intent(this, ExemploViewFlipperLogin.class));
                 break;
             case 7:
-                //startActivity(new Intent(this, ExemploViewAnimada.class));
+                startActivity(new Intent(this, ExemploViewAnimada.class));
                 break;
             case 8:
-                //startActivity(new Intent(this, ExemploAnimLayoutChanges.class));
+                startActivity(new Intent(this, ExemploAnimLayoutChanges.class));
                 break;
             case 9:
-                //startActivity(new Intent(this, ExemploDrawableAnimationActivity.class));
+                startActivity(new Intent(this, ExemploDrawableAnimationActivity.class));
                 break;
             case 10:
-                //startActivity(new Intent(this, TranslateAnimBotaoBug.class));
+                startActivity(new Intent(this, TranslateAnimBotaoBug.class));
                 break;
             default:
                 finish();

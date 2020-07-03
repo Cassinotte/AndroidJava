@@ -10,6 +10,46 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".ExemploDrawableAnimationActivity"
+            android:label="@string/title_activity_exemplo_drawable_animation"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".ExemploAnimLayoutChanges"
+            android:label="@string/title_activity_exemplo_anim_layout_changes"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".TranslateAnimBotaoBug"
+            android:label="@string/title_but_animacao_android2"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".ExemploViewAnimada"
+            android:label="@string/title_view_animada"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".ExemploViewFlipperLogin"
+            android:label="@string/title_viewflipper"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
             android:name=".ExemploAnimationSet"
             android:label="@string/title_animation_set"
             android:parentActivityName=".MainActivity">
@@ -49,58 +89,14 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
-
-<activity
-    android:name=".ExemploAnimationListenerApagarTela"
-    android:label="@string/title_animation_listener"
-    android:parentActivityName=".MainActivity" >
-    <meta-data
-        android:name="android.support.PARENT_ACTIVITY"
-        android:value=".MainActivity" />
-</activity>
-
-        <!--
-<activity
-android:name=".ExemploViewFlipperLogin"
-android:label="@string/title_viewflipper"
-android:parentActivityName=".MainActivity" >
-<meta-data
-    android:name="android.support.PARENT_ACTIVITY"
-    android:value=".MainActivity" />
-</activity>
-<activity
-android:name=".ExemploViewAnimada"
-android:label="@string/title_view_animada"
-android:parentActivityName=".MainActivity" >
-<meta-data
-    android:name="android.support.PARENT_ACTIVITY"
-    android:value=".MainActivity" />
-</activity>
-<activity
-android:name=".TranslateAnimBotaoBug"
-android:label="@string/title_but_animacao_android2"
-android:parentActivityName=".MainActivity" >
-<meta-data
-    android:name="android.support.PARENT_ACTIVITY"
-    android:value=".MainActivity" />
-</activity>
-<activity
-android:name=".ExemploAnimLayoutChanges"
-android:label="@string/title_activity_exemplo_anim_layout_changes"
-android:parentActivityName=".MainActivity" >
-<meta-data
-    android:name="android.support.PARENT_ACTIVITY"
-    android:value=".MainActivity" />
-</activity>
-<activity
-android:name=".ExemploDrawableAnimationActivity"
-android:label="@string/title_activity_exemplo_drawable_animation"
-android:parentActivityName=".MainActivity" >
-<meta-data
-    android:name="android.support.PARENT_ACTIVITY"
-    android:value=".MainActivity" />
-</activity>
-    -->
+        <activity
+            android:name=".ExemploAnimationListenerApagarTela"
+            android:label="@string/title_animation_listener"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
