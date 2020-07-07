@@ -46,22 +46,22 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                 startActivity(new Intent(this, RotateAnim.class));
                 break;
             case 3:
-                //startActivity(new Intent(this, ScaleAnim.class));
+                startActivity(new Intent(this, ScaleAnim.class));
                 break;
             case 4:
-                //startActivity(new Intent(this, TranslateAnim.class));
+                startActivity(new Intent(this, TranslateAnim.class));
                 break;
             case 5:
-                //startActivity(new Intent(this, ExemploAnimatorSet.class));
+                startActivity(new Intent(this, ExemploAnimatorSet.class));
                 break;
             case 6:
-                //startActivity(new Intent(this, ExemploViewPropertyAnimatorActivity.class));
+                startActivity(new Intent(this, ExemploViewPropertyAnimatorActivity.class));
                 break;
             case 7:
-                //startActivity(new Intent(this, ExemploAnimatorListenerApagarTela.class));
+                startActivity(new Intent(this, ExemploAnimatorListenerApagarTela.class));
                 break;
             case 8:
-                //startActivity(new Intent(this, ExemploValueAnimatorTextViewActivity.class));
+                startActivity(new Intent(this, ExemploValueAnimatorTextViewActivity.class));
                 break;
             default:
                 finish();

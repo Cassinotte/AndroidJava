@@ -7,9 +7,21 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme">
+        <activity android:name=".TranslateAnim" android:parentActivityName=".MainActivity"></activity>
+        <activity android:name=".ExemploAnimatorListenerApagarTela" android:parentActivityName=".MainActivity"/>
+        <activity android:name=".ExemploValueAnimatorTextViewActivity" android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".ExemploViewPropertyAnimatorActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ExemploAnimatorSet"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ScaleAnim"
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".RotateAnim"
-            android:parentActivityName=".MainActivity"></activity>
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".ExemploValueAnimator"
             android:parentActivityName=".MainActivity" />
