@@ -41,16 +41,16 @@ public class MainActivity extends AppCompatActivity {
                             startActivity(new Intent(getBaseContext(),DemoHandlerMessageActivity.class));
                             break;
                         case 1:
-                            //startActivity(new Intent(getBaseContext(),DemoHandlerRunnableActivity.class));
+                            startActivity(new Intent(getBaseContext(),DemoHandlerRunnableActivity.class));
                             break;
                         case 2:
-                           // startActivity(new Intent(getBaseContext(),DownloadImagemActivity.class));
+                            startActivity(new Intent(getBaseContext(),DownloadImagemActivity.class));
                             break;
                         case 3:
-                           // startActivity(new Intent(getBaseContext(),ReDownloadImagemActivity.class));
+                            startActivity(new Intent(getBaseContext(),ReDownloadImagemActivity.class));
                             break;
                         case 4:
-                           // startActivity(new Intent(getBaseContext(),ContadorActivity.class));
+                            startActivity(new Intent(getBaseContext(),ContadorActivity.class));
                             break;
 
                         default:
