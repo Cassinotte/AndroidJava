@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                     show(new Intent(this, ExemploElevationActivity.class));
                     break;
                 case 1:
-                    //show(new Intent(this, ExemploRippleActivity.class));
+                    show(new Intent(this, ExemploRippleActivity.class));
                     break;
                 case 2:
                     //show(new Intent(this, ExemploStateListAnimatorActivity.class));
